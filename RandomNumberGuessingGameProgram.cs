@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace RandomNumGameToluA
 {
-    static class Program
+    static class RandomNumberGuessingGameProgram
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace RandomNumGameToluA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmRandomNumberGuessingGame());
         }
     }
 }
